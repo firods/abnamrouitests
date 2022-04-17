@@ -1,0 +1,18 @@
+{
+  "name": "abnamrouitests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "smokeTests": "npx playwright test --grep @smoke",
+    "SafariNewConfig": "npx playwright test --project=safari"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.21.0",
+    "allure-playwright": "^2.0.0-beta.15"
+  }
+}
